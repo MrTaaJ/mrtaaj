@@ -1,62 +1,73 @@
-# Saheed Tajudeen — Portfolio
+# 👋 Hi, I'm Saheed Tajudeen
 
-Animated developer portfolio built with **Vite + React + TypeScript + GSAP**.
+![Profile Views](https://komarev.com/ghpvc/?username=mrtaaj&color=brightgreen)
 
-## Stack
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=00F72D&size=24&lines=Full+Stack+Engineer;MERN+%7C+Next.js+%7C+React;Building+Scalable+Web+Applications)
 
-- **Vite** — build tool
-- **React 18** — UI framework
-- **TypeScript** — type safety
-- **React Router v6** — client-side routing
-- **GSAP 3** — all animations & page transitions
-- **CSS Modules** — scoped component styles
+### Full Stack Engineer • MERN • Next.js • React • Tailwind CSS
 
-## Project Structure
+I build **scalable, high-performance web applications** with a strong focus on **clean architecture, user experience, and real-world problem solving**.
 
-```
-src/
-├── components/
-│   ├── Cursor.tsx          # Custom magnetic cursor
-│   ├── Cursor.module.css
-│   ├── Nav.tsx             # Fixed navigation bar
-│   ├── Nav.module.css
-│   ├── TransitionOverlay.tsx  # GSAP slide overlay
-│   └── TransitionOverlay.module.css
-├── hooks/
-│   └── useTransition.tsx   # Page transition context + GSAP logic
-├── pages/
-│   ├── Home.tsx            # Hero, terminal card, ticker, stats
-│   ├── Home.module.css
-│   ├── Work.tsx            # 6 project cards
-│   ├── Work.module.css
-│   ├── About.tsx           # Bio, skills, experience, contact form
-│   └── About.module.css
-├── styles/
-│   └── global.css          # CSS variables, reset, noise overlay
-├── App.tsx                 # Router + TransitionProvider
-└── main.tsx                # Entry point
-```
+---
 
-## Getting Started
+## 🧠 About Me
 
-```bash
-# Install dependencies
-npm install
+- 💻 Full Stack Engineer working across frontend and backend  
+- ⚙️ Experienced with **MERN stack and modern React ecosystems**  
+- 🎯 I focus on performance, scalability, and maintainable code  
+- 🌱 Continuously improving backend architecture and system design  
 
-# Start dev server
-npm run dev
+---
 
-# Build for production
-npm run build
+## 🚀 Tech Stack
 
-# Preview production build
-npm run preview
-```
+### 🧩 Core (MERN)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?logo=express)
+![React](https://img.shields.io/badge/React-18-20232A?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 
-## Customisation
+### ⚙️ Frontend
+![Next.js](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?logo=javascript&logoColor=black)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-38B2AC?logo=tailwindcss&logoColor=white)
 
-- **Colors** — edit CSS variables in `src/styles/global.css`
-- **Projects** — update the `PROJECTS` array in `src/pages/Work.tsx`
-- **Experience** — update `EXPERIENCE` in `src/pages/About.tsx`
-- **Skills** — update `SKILLS` array in `src/pages/About.tsx`
-- **Transition speed** — change `duration` values in `src/hooks/useTransition.tsx`
+### 🧰 Tools & Others
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black)
+![GSAP](https://img.shields.io/badge/GSAP-0AE448?logo=greensock)
+![REST API](https://img.shields.io/badge/REST-API-blue)
+![Git](https://img.shields.io/badge/Git-VersionControl-F05032?logo=git&logoColor=white)
+
+---
+
+## 🔥 What I’m Good At
+
+- Building full-stack applications with **MERN & Next.js**  
+- Designing and consuming **RESTful APIs**  
+- Creating responsive UIs with **React & Tailwind CSS**  
+- Managing state and async data efficiently  
+- Writing clean, scalable, and maintainable code  
+
+---
+
+## 📌 Featured Projects
+
+- 🌍 Recycle Platform — Connects industries with waste collectors  
+- 🔍 Missing Persons Platform — NGO-based reporting system  
+- 🏢 Business Website — Corporate landing & service platform  
+
+👉 Check my repositories to explore more.
+
+---
+
+## 🌐 Connect With Me
+
+- GitHub: https://github.com/mrtaaj  
+- Portfolio: _[add your live link]_  
+
+---
+
+## 💡 Fun Fact
+
+I don’t just build applications — I **design systems and experiences**.
