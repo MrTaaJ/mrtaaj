@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
-import { useRef } from "react";
 import Cursor from "./components/Cursor";
 import Nav from "./components/Nav";
 import TransitionOverlay from "./components/TransitionOverlay";
