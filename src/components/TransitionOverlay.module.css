@@ -1,0 +1,8 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: var(--accent);
+  z-index: 9990;
+  display: none;
+  pointer-events: none;
+}

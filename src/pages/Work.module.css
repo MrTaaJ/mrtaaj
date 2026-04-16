@@ -1,0 +1,196 @@
+.page {
+  padding-top: 6rem;
+  min-height: 100vh;
+}
+
+/* ── HEADER ── */
+.header {
+  padding: 4rem 3rem 2rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+
+.label {
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+.title em {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--accent);
+}
+
+.count {
+  font-family: var(--font-display);
+  font-size: 4rem;
+  font-weight: 800;
+  color: var(--border);
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+/* ── GRID ── */
+.grid {
+  padding: 2rem 3rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  background: var(--border);
+}
+
+/* ── CARD ── */
+.card {
+  background: var(--bg);
+  padding: 2.5rem;
+  position: relative;
+  overflow: hidden;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(200, 245, 90, 0.04), transparent);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.card:hover {
+  background: var(--surface);
+}
+
+.card:hover::before {
+  opacity: 1;
+}
+
+.accentLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent), transparent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .accentLine {
+  transform: scaleX(1);
+}
+
+.projectNum {
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.projectName {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.75rem;
+  color: var(--text);
+}
+
+.projectDesc {
+  font-size: 0.78rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.techTag {
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  transition:
+    border-color 0.2s,
+    color 0.2s;
+}
+
+.card:hover .techTag {
+  border-color: rgba(200, 245, 90, 0.2);
+  color: var(--accent2);
+}
+
+.projectLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  transition: gap 0.2s;
+}
+
+.projectLink::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1; /* Ensures it sits on top of other card content */
+}
+
+.projectLink:hover {
+  gap: 0.8rem;
+}
+
+.projectLink svg {
+  transition: transform 0.2s;
+}
+
+.projectLink:hover svg {
+  transform: translate(3px, -3px);
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 768px) {
+  .header {
+    padding: 2.5rem 1.5rem 1.5rem;
+  }
+  .count {
+    display: none;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 0;
+  }
+  .card {
+    padding: 2rem 1.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+}
