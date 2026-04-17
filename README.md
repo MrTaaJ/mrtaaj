@@ -67,7 +67,7 @@ I build **scalable, high-performance web applications** with a strong focus on *
 ## 🌐 Connect With Me
 
 - GitHub: https://github.com/mrtaaj
-- Portfolio: https://mrtaaj.com
+- Portfolio: https://mrtaaj.vercel.app
 
 ---
 
